@@ -1,1 +1,56 @@
-asdlkfj
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./assets/css/Bootstrap3/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<title>Pilosohpers Hangman</title>
+</head>
+<body>
+	<h3 id="instructionsTop">Press any key to start!</h3>
+	<div id="randWordContainer">
+			<div id="wordMarginer"></div>
+			<div class="letterContainer" id="letter1"><p class="letter" id="letterText1"></p></div>
+			<div class="letterContainer" id="letter2"><p class="letter" id="letterText2"></p></div>
+			<div class="letterContainer" id="letter3"><p class="letter" id="letterText3"></p></div>
+			<div class="letterContainer" id="letter4"><p class="letter" id="letterText4"></p></div>
+			<div class="letterContainer" id="letter5"><p class="letter" id="letterText5"></p></div>
+			<div class="letterContainer" id="letter6"><p class="letter" id="letterText6"></p></div>
+			<div class="letterContainer" id="letter7"><p class="letter" id="letterText7"></p></div>
+			<div class="letterContainer" id="letter8"><p class="letter" id="letterText8"></p></div>
+			<div class="letterContainer" id="letter9"><p class="letter" id="letterText9"></p></div>
+			<div class="letterContainer" id="letter10"><p class="letter" id="letterText10"></p></div>
+			<div class="letterContainer" id="letter11"><p class="letter" id="letterText11"></p></div>
+			<div class="letterContainer" id="letter12"><p class="letter" id="letterText12"></p></div>
+			<div id="guessesContainer">
+			<h4 id="guessesTitle"></h4>
+			<h5 id="guessesText"></h5>
+			</div>
+	</div>
+	<div id="infoContainer">
+		<h5 class="infoTitle">How many names have I guessed correctly?</h5>
+		<p class="infoText" id="wins">0</p>
+		<h5 class="infoTitle">How many more mistakes can I make this round?</h5>
+		<p class="infoText" id="mistakes">6</p>
+		<h5 class="infoTitle">Words of the philosopher:</h5>
+		<p class="infoText" id="quoteText"></p>
+	</div>
+	<div id="hangmanContainer">
+		<div id="hangmanStructure">
+			<div id="nooseAttachment">
+			</div>
+			<img id="noose" src="./assets/images/hang.png" height="200px" width="100px">
+			<img id="head" src="" height="" width="">
+			<div id="torso">
+
+				<div id="leftArm">
+					<div id="rightArm"></div>
+				</div>
+			</div>
+			<div id="leftLeg"></div>
+			<div id="rightLeg"></div>
+		</div>
+	</div>
+<script src="./assets/javascript/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,207 @@
+body {
+	background-image: url("../images/background.png");
+}
+
+#instructionsTop {
+	text-align: center;
+}
+
+#randWordContainer {
+	position: relative;
+	height: 100px;
+	width: 420px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.letterContainer {
+	height:30px;
+	width: 35px;
+}
+
+#wordMarginer {
+	float: left;
+	height: 100%;
+	width: 0px;
+}
+
+#letter1 {
+	float: left;
+	display: none;
+}
+
+#letter2 {
+	float: left;
+	display: none;
+}
+
+#letter3 {
+	float: left;
+	display: none;
+}
+
+#letter4 {
+	float: left;
+	display: none;
+}
+
+#letter5 {
+	float: left;
+	display: none;
+}
+
+#letter6 {
+	float: left;
+	display: none;
+}
+
+#letter7 {
+	float: left;
+	display: none;
+}
+
+#letter8 {
+	float: left;
+	display: none;
+}
+
+#letter9 {
+	float: left;
+	display: none;
+}
+
+#letter10 {
+	float: left;
+	display: none;
+}
+
+#letter11 {
+	float: left;
+	display: none;
+}
+
+#letter12 {
+	float: left;
+	display: none;
+}
+
+
+#guessesContainer {
+	position: absolute;
+	height: 30px;
+	width: 100%;
+	margin-top: 30px;
+}
+
+#guessesText {
+	text-align: center;
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+
+#guessesTitle {
+	text-align: center;
+}
+
+#hangmanContainer {
+	height: 500px;
+	width: 360px;
+	margin: auto;
+	margin-right: 60%;
+	border-bottom: 5px solid black;
+	display: none;
+}
+
+#hangmanStructure {
+	float: right;
+	height: 500px;
+	width: 160px;
+	margin-right: 100px;
+	border-left: 5px solid black;
+	border-top: 5px solid black;
+}
+
+#nooseAttachment {
+	width: 160px;
+	height: 50px;
+	border-right: 5px solid black;
+	margin-top: -5px;
+}
+
+#noose {
+	margin-left: 110px;
+	display: none;
+}
+
+#torso {
+	width: 160px;
+	height: 120px;
+	border-right: 6px solid black;
+	margin-left: 3px;
+	display: none;
+}
+
+#leftLeg {
+	height: 100px;
+	width: 160px;
+	border-right: 5px solid black;
+	transform: rotate(30deg);
+	margin-left: -14px;
+	margin-top: -40px;
+	display: none;
+}
+
+#rightLeg {
+	height: 100px;
+	width: 162px;
+	border-right: 5px solid black;
+	transform: rotate(-30deg);
+	margin-left: 38px;
+	margin-top: -22px;
+	display: none;
+}
+
+#leftArm {
+	height: 60px;
+	width: 80px;
+	border-bottom: 5px solid black;
+	margin-left: 70px;
+	display: none;
+}
+
+#rightArm {
+	height: 60px;
+	width: 80px;
+	border-bottom: 5px solid black;
+	margin-left: 94px;
+	display: none;
+}
+
+#head {
+	margin-left: 130px;
+	margin-top: -70px;
+	position: absolute;
+	display: none;
+}
+
+#infoContainer {
+	position: relative;
+	height: 500px;
+	width: 550px;
+	margin: auto;
+	display: none;
+}
+
+.infoText {
+	text-align: center;
+	font-size: 16px;
+}
+
+.infoTitle {
+	text-align: center;
+}
+
+#quoteText {
+	font-size: 14px;
+}
